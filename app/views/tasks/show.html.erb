@@ -1,9 +1,13 @@
-<h2><%= @task.title %></h2>
-<p><%= @task.details %></p>
-<p><%= @task.completed %></p>
-<%= link_to "Update", edit_path %>
-<%= link_to "Delete",
-  task_path(@task),
+<h2 class="title"><%= @task.title %></h2>
+<p class="desc"><%= @task.details %></p>
+<p class="desc"><%= @task.completed %></p>
+<p class="update"><i class="fa-solid fa-pen-to-square"></i><%= link_to "Update", edit_path, class: 'update'%></p>
+
+<p class="delete"><i class="fa-solid fa-x"></i><%= link_to "Delete",
+  task_path(@task), class: 'delete',
   data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
-%>
-<%= link_to "Back to list", tasks_path %>
+%></p>
+
+<p class="back-to-list">
+  <i class="fa-sharp fa-solid fa-clock-rotate-left"></i><%= link_to "Back to list", tasks_path, class: 'back-to-list' %>
+</p>

@@ -13,3 +13,115 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+body {
+  background-color: #D3E9ED;
+}
+
+ .title {
+  font-size: 36px;
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+ }
+
+ .btn-new {
+  text-decoration: none;
+ }
+
+.list {
+  /* text-decoration: none; */
+  color: black;
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+}
+
+.list-item {
+  margin: 5px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.tasks {
+  margin: 20px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.fa-plus {
+  margin-left: 20px;
+  margin-right: 5px;
+  color: blue;
+}
+
+.update {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-family: 'raleway', sans-serif;
+  text-decoration: none;
+}
+
+.fa-pen-to-square {
+  padding-right: 5px;
+}
+
+.delete {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-family: 'raleway', sans-serif;
+  text-decoration: none;
+}
+
+.fa-x {
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.back-to-list {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-family: 'raleway', sans-serif;
+  text-decoration: none;
+
+}
+
+.fa-clock-rotate-left {
+  padding-right: 5px;
+
+}
+
+.desc {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-family: 'raleway', sans-serif;
+}
+
+.form {
+  margin: 20px;
+  font-family: 'raleway', sans-serif;
+  width: 100%;
+}
+
+.input {
+  background-color: aliceblue;
+  width: 350px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit {
+  background-color: #00C5DD;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

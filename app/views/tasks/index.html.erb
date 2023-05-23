@@ -1,8 +1,8 @@
-<h1>Task-Manager</h1>
-<p><%= link_to "New Task", new_path %></p>
-<h3>tasks</h3>
-<ul>
-  <% @tasks.each do |task| %>
-    <li><%= link_to task.title, task_path(task) %></li>
-  <% end %>
-</ul>
+<h1 class="title">Task-Manager</h1>
+  <h3 class="tasks">tasks</h3>
+  <ol>
+    <% @tasks.each do |task| %>
+      <li class="list-item"><%= link_to task.title, task_path(task), class: 'list' %></li>
+    <% end %>
+  </ol>
+  <p> <i class="fa-solid fa-plus"></i><%= link_to "New Task", new_path, class: 'btn-new' %></p>

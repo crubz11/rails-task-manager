@@ -125,3 +125,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+#myCheckbox {
+  margin-right: 5px;
+}
